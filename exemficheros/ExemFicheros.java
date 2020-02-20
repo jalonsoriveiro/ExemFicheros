@@ -38,8 +38,10 @@ public class ExemFicheros {
         System.out.println("***"+v);
             System.out.println("objet");
              File F4 = new File("/home/local/DANIELCASTELAO/jalonsoriveiro/Escritorio/Xogadores.txt");       
-            obx.lerObxectos(F4);
+            //obx.lerObxectos(F4);
         
+            System.out.println("profe");
+            obx.lerObxectosprofe(F4);
     }
         
         
